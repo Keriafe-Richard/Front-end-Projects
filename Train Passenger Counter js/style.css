@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:cursive;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+button {
+    height: 2.4em;
+    font-size: 1.7rem;
+    width: 9em;
+    border: none;
+    padding: 10 0;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: blue;
+}
+
+p {
+    font-size: 1.9rem;
+}
